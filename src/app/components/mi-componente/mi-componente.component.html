@@ -1,0 +1,6 @@
+<h1>{{titulo}}</h1>
+<button (click)="ocultarPeliculas()">Ocultar peliculas</button>
+<div *ngIf="mostrarPeliculas">
+    <peliculas></peliculas>
+    <app-home></app-home>
+</div>
